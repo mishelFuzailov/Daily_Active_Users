@@ -19,6 +19,7 @@ public class DAU_Counter implements IDataCounter {
       @return Map<String, Integer> result : map od date:num of users
      */
     public Map<String, Integer> Count(){
+        int a = 0;
         // key: Day, value: num of users in this day
         Map<String, Integer> result = new HashMap<>();
         // get set of users and days from dataReader.
